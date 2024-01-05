@@ -130,9 +130,10 @@ img {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-container {
-  padding: 188px 0;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -200,10 +201,10 @@ img {
 /* ---------team------- */
 .team {
   background: var(--CLOUD, #f4f4fd);
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-container {
-  padding: 120px 0;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -253,10 +254,10 @@ img {
 /* -------portfolio-------- */
 .portfolio {
   background: #fff;
-}
-.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-container {
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -303,10 +304,10 @@ img {
 /* ---------Footer------ */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-conteiner {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
