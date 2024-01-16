@@ -115,7 +115,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
 }
 .address-list-link {
   color: #434455;
@@ -309,6 +308,9 @@ img {
   padding-bottom: 100px;
 }
 .footer-conteiner {
+    padding-top: 100px;
+  padding-bottom: 100px;
+}
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
