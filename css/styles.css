@@ -50,7 +50,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.header-container {
+.container {
   display: flex;
   align-items: center;
 }
