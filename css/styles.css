@@ -81,9 +81,6 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-list-item {
-  padding: 24px 0;
-}
 .header-list-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -118,6 +115,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 .address-list-link {
   color: #434455;
