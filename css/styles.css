@@ -82,7 +82,8 @@ img {
   gap: 40px;
 }
 .header-list-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-list-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -196,6 +197,7 @@ img {
 }
 .features-items {
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -337,6 +339,7 @@ img {
   text-transform: uppercase;
 }
 .footer-logo-light {
+  display: inline-block;
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
