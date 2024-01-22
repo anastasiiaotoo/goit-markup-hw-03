@@ -50,7 +50,6 @@ img {
 }
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 .container {
   align-items: center;
@@ -83,6 +82,7 @@ img {
   gap: 40px;
 }
 .header-list-item {
+  padding: 24px 0;
 }
 .header-list-link {
   color: var(--NAVY-BLUE, #2e2f42);
