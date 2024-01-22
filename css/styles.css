@@ -47,8 +47,7 @@ img {
 /* --------header------ */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .container {
   display: flex;
@@ -57,7 +56,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-logo {
   color: #4d5ae5;
@@ -81,7 +79,6 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-list-item {
 }
@@ -274,6 +271,7 @@ img {
   padding-bottom: 120px;
 }
 .portfolio-container {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -290,7 +288,6 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-item {
@@ -341,6 +338,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
 }
 .footer-logo-light {
   color: #f4f4fd;
