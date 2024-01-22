@@ -53,7 +53,6 @@ img {
 .container {
   display: flex;
   align-items: center;
-  display: inline-block;
 }
 .header-navigation {
   display: flex;
