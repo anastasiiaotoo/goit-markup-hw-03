@@ -293,8 +293,8 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
-
-.portfolio-list-item {
+.portfolio-list-item (1,0,0) {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-list-img {
   margin: 0 auto;
